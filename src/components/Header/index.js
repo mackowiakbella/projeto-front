@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Header.module.css";
 
 export default function Header() {
@@ -13,7 +14,8 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <p>Coca-Cola</p>
+      <Image className={styles.logo} src='/Images/coca_png-removebg-preview.png' alt="Logo" width={190} height={70}/>
+
       </div>
       <nav className={`${styles.menu} ${menuAberto ? styles.aberto : ""}`}>
         <ul className={styles.lista}>
@@ -22,6 +24,9 @@ export default function Header() {
           </li>
           <li>
             <Link href="/sobre">Produção</Link>
+          </li>
+          <li>
+            <Link href="/parceria">Parceria</Link>
           </li>
         </ul>
       </nav>

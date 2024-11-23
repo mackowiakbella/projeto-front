@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-      <Image className={styles.logo} src='/Images/coca_png-removebg-preview.png' alt="Logo" width={190} height={70}/>
+      <Image className={styles.logo} src='/Images/coca_png-removebg-preview.png' alt = "logo coca" width={190} height={70}/>
 
       </div>
       <nav className={`${styles.menu} ${menuAberto ? styles.aberto : ""}`}>

@@ -14,19 +14,19 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-      <Image className={styles.logo} src='/Images/cocalove-removebg-preview.png' alt = "logo coca" width={190} height={50}/>
-
+      <Image className={styles.logo} src="/Images/cocalove-removebg-preview.png" alt = "logo" width={189} height={50}/>
       </div>
+
       <nav className={`${styles.menu} ${menuAberto ? styles.aberto : ""}`}>
         <ul className={styles.lista}>
           <li>
             <Link href="/">Início</Link>
           </li>
           <li>
-            <Link href="/sobre">Produção</Link>
+            <Link href="/Sobre" >Produção</Link>
           </li>
           <li>
-            <Link href="/parceria">Parceria</Link>
+            <Link href="/Parceria" >Parceria</Link>
           </li>
         </ul>
       </nav>

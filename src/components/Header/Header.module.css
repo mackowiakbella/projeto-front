@@ -8,12 +8,11 @@
   z-index: 1000;
 }
 
-.logo p {
-  font-size: 24px;
-  font-weight: bold;
+.pLogo{
+  font-family: Lobster, sans-serif;
+  font-size: 30px;
   color: var(--cor-principal);
 }
-
 
 .menu {
   display: flex;
@@ -34,7 +33,7 @@
 
 .lista li a {
   text-decoration: none;
-  color: var(--cor-texto);
+  color: red;
   transition: color 0.3s;
 }
 

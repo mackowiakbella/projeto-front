@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-      <Image className={styles.logo} src='/public/images/logo.png' alt="logo" width={190} height={50}/>
+        <p className={styles.pLogo}> Coca-Cola</p>
       </div>
 
       <nav className={`${styles.menu} ${menuAberto ? styles.aberto : ""}`}>
@@ -23,10 +23,10 @@ export default function Header() {
             <Link href="/">Início</Link>
           </li>
           <li>
-            <Link href="/Sobre" >Produção</Link>
+            <Link href="/sobre" >Produção</Link>
           </li>
           <li>
-            <Link href="/Parceria" >Parceria</Link>
+            <Link href="/parceria" >Parceria</Link>
           </li>
         </ul>
       </nav>
